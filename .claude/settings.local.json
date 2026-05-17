@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --version)",
+      "Bash(mkdir -p \"D:/Homework/7\")",
+      "Bash(dotnet new *)",
+      "Bash(mkdir *)",
+      "Bash(mv SearchApp/* .)",
+      "Bash(mv SearchApp/.* .)",
+      "Bash(rm -rf SearchApp)",
+      "Bash(mv VocabApp/* .)",
+      "Bash(mv VocabApp/.* .)",
+      "Bash(rm -rf VocabApp)",
+      "Bash(dotnet build *)"
+    ]
+  }
+}
